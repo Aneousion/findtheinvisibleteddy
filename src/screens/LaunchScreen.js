@@ -6,7 +6,7 @@ export default function LaunchScreen({ startGame }) {
   return (
     <PageWrapper>
       <CenteredBox>
-        <Title>Find The Invisible  <s style={{ padding: "0 5px" }}>Daddy</s> Teddy</Title>
+        <Title style><p>Find The Invisible <s>Daddy</s> Teddy</p></Title>
         <Description>
           Drag your mouse (or finger) around to find Teddy. It’s hiding behind
           the Ooga Booga.
@@ -47,10 +47,10 @@ const CenteredBox = styled.div`
 `
 
 const Title = styled.h1`
-  font-size: 32px;
+  font-size: 25px;
   font-family: "Wotfard Semibold";
   display: flex;
-  margin: 14px 0px;
+  margin: 0px;
   color: ${({ theme }) => theme.blackText};
   will-change: transform, background-color, box-shadow;
 `

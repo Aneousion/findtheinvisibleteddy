@@ -147,14 +147,23 @@ export default function GameScreen() {
         <Image
           src={rubyBlinking}
           alt="ruby"
-          style={{ opacity: showBlinking ? 1 : 0 }}
+          style={{
+            opacity: showBlinking ? 1 : 0,
+            width: '400px', // Adjust the size as needed
+            height: '400px', // Maintain aspect ratio or adjust as needed
+          }}
         />
         <Image
           onClick={rubyIsFound}
           src={ruby}
           alt="ruby"
-          style={{ opacity: showBlinking ? 0 : 1 }}
+          style={{
+            opacity: showBlinking ? 0 : 1,
+            width: '400px', // Adjust the size as needed
+            height: '400px', // Maintain aspect ratio or adjust as needed
+          }}
         />
+
         <Confetti active={showConfetti} />
         {showPlayAgain && (
           <motion.div
@@ -247,6 +256,5 @@ const Button = styled.button`
   font-family: "Wotfard Semibold";
   font-size: 13px;
   margin: 30px 0px;
-  margin-top: 285px;
   transform: scale(1.5);
 `
