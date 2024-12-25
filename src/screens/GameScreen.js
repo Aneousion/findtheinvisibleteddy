@@ -149,8 +149,8 @@ export default function GameScreen() {
           alt="ruby"
           style={{
             opacity: showBlinking ? 1 : 0,
-            width: '400px', // Adjust the size as needed
-            height: '400px', // Maintain aspect ratio or adjust as needed
+            width: '200px', // Adjust the size as needed
+            height: '200px', // Maintain aspect ratio or adjust as needed
           }}
         />
         <Image
@@ -159,8 +159,8 @@ export default function GameScreen() {
           alt="ruby"
           style={{
             opacity: showBlinking ? 0 : 1,
-            width: '400px', // Adjust the size as needed
-            height: '400px', // Maintain aspect ratio or adjust as needed
+            width: '200px', // Adjust the size as needed
+            height: '200px', // Maintain aspect ratio or adjust as needed
           }}
         />
 
@@ -255,6 +255,6 @@ const Button = styled.button`
   }
   font-family: "Wotfard Semibold";
   font-size: 13px;
-  margin: 30px 0px;
+  margin-top: 300px;
   transform: scale(1.5);
 `
