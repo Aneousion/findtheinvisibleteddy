@@ -216,8 +216,8 @@ const Button = styled.button`
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(65deg, #158af5 0, #6a72e4 100%);
-  box-shadow: 0 8px 16px rgba(35, 129, 244, 0.44);
+  background: linear-gradient(65deg, #8B4513 0, #A0522D 100%);
+  box-shadow: 0 8px 16px rgba(139, 69, 19, 0.44);
   padding: 12px 14px;
   color: white;
   border-radius: 6px;

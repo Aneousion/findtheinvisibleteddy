@@ -6,16 +6,22 @@ export default function LaunchScreen({ startGame }) {
   return (
     <PageWrapper>
       <CenteredBox>
-        <Title>Find the invisible Ruby</Title>
+        <Title>Find The Invisible  <s style={{ padding: "0 5px" }}>Daddy</s> Teddy</Title>
         <Description>
-          Drag your mouse (or finger) around to find Ruby. It’s hiding behind
-          the shouting.
+          Drag your mouse (or finger) around to find Teddy. It’s hiding behind
+          the Ooga Booga.
         </Description>
         <Tip>
           <Volume2 color="#252938" />
           Make sure you turn your audio on before playing.
         </Tip>
         <Button onClick={startGame}>Start Game</Button>
+        <div>
+          Made by <a href="https://x.com/0x_Scientist" target="_blank" style={{color: '#158af5'}}><u>0x_Scientist</u></a>
+        </div>
+        <div>
+          Forked from <a href="https://github.com/JaviEzpeleta/findtheinvisibleruby" target="_blank" style={{color: '#158af5'}}><u>Javi</u></a>
+        </div>
       </CenteredBox>
     </PageWrapper>
   )
@@ -70,8 +76,8 @@ const Button = styled.button`
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(65deg, #158af5 0, #6a72e4 100%);
-  box-shadow: 0 8px 16px rgba(35, 129, 244, 0.44);
+  background: linear-gradient(65deg, #8B4513 0, #A0522D 100%);
+  box-shadow: 0 8px 16px rgba(139, 69, 19, 0.44);
   padding: 12px 18px;
   color: white;
   border-radius: 6px;
@@ -86,7 +92,7 @@ const Button = styled.button`
   -ms-user-select: none;
   user-select: none;
   :hover {
-    transform: scale(1.02);
+    background: linear-gradient(65deg, #A0522D 0, #8B4513 100%);
   }
   :active {
     transform: scale(0.98);
