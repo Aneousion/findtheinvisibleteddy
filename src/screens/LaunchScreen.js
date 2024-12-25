@@ -6,7 +6,7 @@ export default function LaunchScreen({ startGame }) {
   return (
     <PageWrapper>
       <CenteredBox>
-        <Title style><p>Find The Invisible <s>Daddy</s> Teddy</p></Title>
+        <Title>Find The Invisible <s style={{ padding: "0" }}>Daddy</s> Teddy</Title>
         <Description>
           Drag your mouse (or finger) around to find Teddy. It’s hiding behind
           the Ooga Booga.
